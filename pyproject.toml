@@ -35,6 +35,7 @@ dependencies = [
   "mypy",
   "pytest-cov",
   "pytest",
+  "pytest-raisin",
 ]
 [tool.hatch.envs.default.scripts]
 cov = "pytest --cov-report=term-missing --cov-config=pyproject.toml --cov=src/pytest_example --cov=tests {args}"
